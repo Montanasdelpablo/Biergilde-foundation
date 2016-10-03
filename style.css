@@ -1,0 +1,54 @@
+/******************************************************************
+Theme Name: JointsWP - Sass
+Theme URI: http://www.jointswp.com
+Description: 
+Author: Your Name Here
+Author URI: http://www.yoururlhere.com
+Version: 4.0
+License: GNU General Public License & MIT
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: Sass
+******************************************************************/
+#welcome {
+    background: url(assets/images/kerk01.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:500px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.top-bar  {
+    background-color: #009688;
+    position: fixed;
+    width: 100%;
+}
+
+.top-bar ul {
+    background-color: #009688;
+}
+
+.top-bar-left .menu a {
+    color: #fff
+}
+
+.top-bar-right .menu a {
+    color: #fff
+}
+
+a {
+    color: #009688;
+}
+a:link {
+    color: #009688 !important;
+}
+
+.button {
+    background-color: #424242;
+}
+
+.button:hover {
+    background-color: #212121;
+}
